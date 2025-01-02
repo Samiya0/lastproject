@@ -614,6 +614,30 @@ video {
   height: 40px;
 }
 
+.h-4 {
+  height: 1rem;
+}
+
+.h-\[472px\] {
+  height: 472px;
+}
+
+.h-\[400\] {
+  height: 400;
+}
+
+.h-\[400px\] {
+  height: 400px;
+}
+
+.h-\[200px\] {
+  height: 200px;
+}
+
+.h-\[180px\] {
+  height: 180px;
+}
+
 .w-\[90\%\] {
   width: 90%;
 }
@@ -650,6 +674,34 @@ video {
   width: 105px;
 }
 
+.w-\[900\] {
+  width: 900;
+}
+
+.w-\[900px\] {
+  width: 900px;
+}
+
+.w-\[800px\] {
+  width: 800px;
+}
+
+.w-\[500px\] {
+  width: 500px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -680,6 +732,10 @@ video {
 
 .gap-\[15px\] {
   gap: 15px;
+}
+
+.gap-\[\] {
+  gap: ;
 }
 
 .border-2 {
@@ -738,6 +794,15 @@ video {
   padding-bottom: 20px;
 }
 
+.px-\[20px\] {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.font-sans {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -753,13 +818,47 @@ video {
   line-height: 2.5rem;
 }
 
+.text-\[35px\] {
+  font-size: 35px;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
+}
+
+.text-\[24px\] {
+  font-size: 24px;
+}
+
+.text-\[25px\] {
+  font-size: 25px;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[\#EFA359\] {
+  --tw-text-opacity: 1;
+  color: rgb(239 163 89 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#414753\] {
+  --tw-text-opacity: 1;
+  color: rgb(65 71 83 / var(--tw-text-opacity, 1));
 }
 
 @media (min-width: 1024px) {
@@ -779,8 +878,40 @@ video {
     display: none;
   }
 
+  .lg\:h-\[400px\] {
+    height: 400px;
+  }
+
+  .lg\:w-\[800px\] {
+    width: 800px;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:flex-col {
+    flex-direction: column;
+  }
+
+  .lg\:flex-col-reverse {
+    flex-direction: column-reverse;
+  }
+
+  .lg\:justify-center {
+    justify-content: center;
+  }
+
   .lg\:bg-white {
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+  }
+
+  .lg\:text-\[35px\] {
+    font-size: 35px;
+  }
+
+  .lg\:font-semibold {
+    font-weight: 600;
   }
 }
